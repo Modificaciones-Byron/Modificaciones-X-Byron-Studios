@@ -1,0 +1,424 @@
+/*
+estilos css de Byron 1
+*/
+body{
+				margin: 0;
+}
+
+
+.correo, .informacion, .pie{
+				padding: 0 30px;
+				display: block;
+				overflow: hidden;
+				color: white;
+			
+}
+/*Fondo de recuadro*/
+.centro{
+				width: 700px;
+				margin: 0 auto;
+				border-left: 1px solid #cccccc;
+				border-right: 1px solid #cccccc;
+				background-color: #0f1722;
+}
+
+/*Parte de arriba*/
+.encabezado{
+				background: #03e9f4;
+				display: block;
+				padding: 35px 0 25px 0 ;
+				margin-top: -5px5
+}
+/*divide los 2 cuerpos en partes iguales*/
+.izquierda, .derecha{
+				width: 50%;
+				float: left;
+}
+
+/*Parte de arriba*/
+.informacion img{
+				margin: 0 auto;
+				display: block;
+}
+
+/*tamaño de letras de parrafos  */
+.informacion p, .informacion a{
+				padding: 0 10px ;
+}
+
+/*justica todos los parrafos  */
+.informacion p{
+				text-align: justify;
+}
+
+/*cuadro de logo y desarrolador altura y ancho*/
+.pie{
+				background: #03e9f4;
+				padding: 15px 30px ;
+				margin-top: 30px;
+}
+
+/*Tamaño de Logo derecho Byron Studios*/
+.studio{
+				width: 220px;
+				display: inline;				
+				text-decoration:none;
+				margin-left: 80px;
+				vertical-align: middle;		
+				margin-top: 40px;
+}
+
+/*Color de Fecha*/
+.fecha{
+color: #00ff18;
+}
+
+/*Tamaño de letras de arriba MGG*/
+.te{
+	width: 700px;
+	mar
+}
+
+/*Tamaño de imagen de Sunny day*/
+.ele{
+				width: 240px;
+}
+
+/*Tamaño de imagen like*/
+.informacion .like{
+				width: 26px;
+				display: inline;				
+				text-decoration:none;
+				margin-left: 70px;
+				vertical-align: middle;
+}
+
+/*Logos de contactar*/
+.hola{
+				width: 45px;
+				display: inline;				
+				text-decoration:none;
+				margin-left: 15px;
+				vertical-align: middle;				
+}
+/*Logos de tematica dragon ball z*/
+.informacion .dbzft{
+				width: 90px;
+				display: inline;
+				vertical-align: middle;
+				margin-left: 60px;
+}
+/*Logos de tematica sunny day*/
+.informacion .sndlga{
+				width: 161px;
+				display: inline;
+				vertical-align: middle;
+				margin-left: 60px;
+}
+/*Sistema para quitar el rayado y color azul de link del boton*/
+.pzz{
+    text-decoration:none;
+    color: white;
+}
+/*boton de descarga de DBZ*/
+.download-btn {
+  text-decoration:none;
+  padding: 10px 32px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+  border-radius: 40px;
+  background-color: #fc4b08;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 10px 20px rgba(255, 128, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  animation: pulse 2s linear infinite;
+}
+
+.download-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(255, 128, 0 );
+}
+
+.download-btn span {
+  position: relative;
+  z-index: 1;
+}
+
+.download-btn::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 0, 85, 0.5),
+    rgba(0, 255, 170, 0.5),
+    rgba(255, 255, 0, 0.5),
+    rgba(255, 0, 85, 0.5)
+  );
+  transform: translate(-50%, -50%) rotate(45deg);
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(405deg);
+  }
+}
+
+
+/*boton de descarga de SNDY*/
+.download-snd{
+  text-decoration:none;
+  padding: 10px 32px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+  border-radius: 40px;
+  background-color: #ffff00;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 10px 20px rgba(255, 255, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  animation: pulse 2s linear infinite;
+}
+
+.download-snd:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(255, 255, 0); 
+}
+
+.download-snd span {
+  position: relative;
+  z-index: 1;
+}
+
+.download-snd::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 0, 85, 0.5),
+    rgba(0, 255, 170, 0.5),
+    rgba(255, 255, 0, 0.5),
+    rgba(255, 0, 85, 0.5)
+  );
+  transform: translate(-50%, -50%) rotate(45deg);
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(405deg);
+  }
+}
+
+/*boton de descarga de Navidad*/
+.download-nvd{
+  text-decoration:none;
+  padding: 10px 32px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+  border-radius: 40px;
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 10px 20px rgba(255, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  animation: pulse 2s linear infinite;
+}
+
+.download-nvd:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(255, 0, 0);
+}
+
+.download-nvd span {
+  position: relative;
+  z-index: 1;
+}
+
+.download-nvd::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 0, 85, 0.5),
+    rgba(0, 255, 170, 0.5),
+    rgba(255, 255, 0, 0.5),
+    rgba(255, 0, 85, 0.5)
+  );
+  transform: translate(-50%, -50%) rotate(45deg);
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(405deg);
+  }
+}
+
+
+/*boton de descarga de WORD NEW*/
+.download-wn{
+  text-decoration:none;
+  padding: 10px 32px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+  border-radius: 40px;
+  background-color: #00ff00;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 10px 20px rgba(2, 255, 2, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  animation: pulse 2s linear infinite;
+}
+
+.download-wn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(2, 255, 2);
+}
+
+.download-wn span {
+  position: relative;
+  z-index: 1;
+}
+
+.download-wn::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 0, 85, 0.5),
+    rgba(0, 255, 170, 0.5),
+    rgba(255, 255, 0, 0.5),
+    rgba(255, 0, 85, 0.5)
+  );
+  transform: translate(-50%, -50%) rotate(45deg);
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(405deg);
+  }
+}
+
+.color-change{
+  animation: color-animation 2s infinite;
+}
+
+@keyframes color-animation {
+  0% {
+    color: blue;
+  }
+  50% {
+    color: rgb(0, 143, 57);
+  }
+  100% {
+    color: rgb(255, 0, 128);
+  }
+}
+
